@@ -1,0 +1,26 @@
+body {
+    padding-top: 56px; /* Altura da barra de navegação fixa */
+}
+
+.sidebar {
+    height: 100%;
+    width: 250px;
+    position: fixed;
+    top: 56px;
+    left: 0;
+    background-color: #f8f9fa; /* Cor de fundo da barra lateral */
+    padding-top: 20px;
+
+    position: fixed;
+        bottom: 0;
+    left: 0;
+    z-index: 100;
+    padding: 20px;
+    box-shadow: 0 4px 6px rgba(0, 0, 0, 0.1);
+
+  }
+
+.content {
+    margin-left: 250px; /* Largura da barra lateral */
+    padding: 20px;
+  }
